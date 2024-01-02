@@ -26,10 +26,36 @@
         android:layout_height="350dp">
 
         <ImageView
-            android:id="@+id/imageView"
+            android:id="@+id/pic0"
             android:layout_width="383dp"
             android:layout_height="224dp"
+
+            app:srcCompat="@drawable/pic0"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="72dp" />
+
+        <ImageView
+            android:id="@+id/pic1"
+            android:layout_width="383dp"
+            android:layout_height="224dp"
+            android:alpha="0"
             app:srcCompat="@drawable/pic1"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="72dp" />
+        <ImageView
+            android:id="@+id/pic2"
+            android:layout_width="383dp"
+            android:layout_height="224dp"
+            android:alpha="0"
+            app:srcCompat="@drawable/pic2"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="72dp" />
+        <ImageView
+            android:id="@+id/pic3"
+            android:layout_width="383dp"
+            android:layout_height="224dp"
+            android:alpha="0"
+            app:srcCompat="@drawable/pic3"
             tools:layout_editor_absoluteX="16dp"
             tools:layout_editor_absoluteY="72dp" />
     </androidx.constraintlayout.widget.ConstraintLayout>
